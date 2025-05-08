@@ -25,3 +25,10 @@
 - `@nestjs/core` - Core Nest factory functions
 - `@nestjs/platform-express` - Lets Nest use Express JS for handling HTTP requests (default). Instead we can also use Fastify
 - `reflect-metadata` - Helps make decorators work
+
+### NestJs Naming convention
+
+- One class per file (some exceptions)
+- Class names should include the kind of thing we are creating
+- Name of class and name of the file should always match up
+- Filename template: name.type_of_thing.ts - `app.modules.ts`, `app.controller.ts`
